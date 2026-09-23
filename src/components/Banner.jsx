@@ -4,7 +4,7 @@ import { ArrowRight, Zap, ShieldCheck, Award, Flame, CheckCircle2 } from 'lucide
 
 export default function Banner() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-black pt-36 sm:pt-44 pb-20 px-4 sm:px-6">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-black pt-32 pb-20 px-4 sm:px-6">
       {/* High-Tech Metallic Silver Ambient Glows */}
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[500px] bg-gradient-to-b from-white/10 via-slate-400/5 to-transparent rounded-full blur-[150px] pointer-events-none" />
       <div className="absolute -bottom-32 left-1/2 -translate-x-1/2 w-[600px] h-[400px] bg-gradient-to-t from-slate-500/10 to-transparent rounded-full blur-[130px] pointer-events-none" />
